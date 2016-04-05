@@ -3,8 +3,8 @@
 	/* Includes URL signing class and performs authentication check */
 	require_once('UrlSigning.php');
 	$lic_key = '$46f365e72ca4e2bc7cc';
-	$authenticated = false || strrpos("!flexpaperbzSeAiLdOl","!flexpaper")>-1;
-	if(isset($_POST['txt_flexpaper_password'])){$authenticated = $_POST['txt_flexpaper_password'] == '!flexpaperbzSeAiLdOl';} $auth_tried=isset($_POST['txt_flexpaper_password']) && !$authenticated;
+	$authenticated = false || strrpos("!flexpaper88PFFxImnP","!flexpaper")>-1;
+	if(isset($_POST['txt_flexpaper_password'])){$authenticated = $_POST['txt_flexpaper_password'] == '!flexpaper88PFFxImnP';} $auth_tried=isset($_POST['txt_flexpaper_password']) && !$authenticated;
 ?>
 <!doctype html>
 <html>
@@ -18,17 +18,17 @@
         body { margin:0; padding:0; overflow:auto; }
         #flashContent { display:none; }
     </style>
-    <link rel="stylesheet" type="text/css" href="css/flexpaper.css?1459858625775" />
-    <link rel="stylesheet" type="text/css" href="css/popover.css?1459858625775" />
-    <link rel="stylesheet" type="text/css" href="css/popover-theme.css?1459858625775" />
-    <script type="text/javascript" src="js/jquery.min.js?1459858625775"></script>
-    <script type="text/javascript" src="js/jquery.extensions.min.js?1459858625775"></script>
-    <script type="text/javascript" src="js/popover.min.js?1459858625775"></script>
+    <link rel="stylesheet" type="text/css" href="css/flexpaper.css?1459859590450" />
+    <link rel="stylesheet" type="text/css" href="css/popover.css?1459859590450" />
+    <link rel="stylesheet" type="text/css" href="css/popover-theme.css?1459859590450" />
+    <script type="text/javascript" src="js/jquery.min.js?1459859590450"></script>
+    <script type="text/javascript" src="js/jquery.extensions.min.js?1459859590450"></script>
+    <script type="text/javascript" src="js/popover.min.js?1459859590450"></script>
     <!--[if gte IE 10 | !IE ]><!-->
-    <script type="text/javascript" src="js/three.min.js?1459858625775"></script>
+    <script type="text/javascript" src="js/three.min.js?1459859590450"></script>
     <!--<![endif]-->
-    <script type="text/javascript" src="js/flexpaper.js?1459858625775"></script>
-    <script type="text/javascript" src="js/flexpaper_handlers.js?1459858625775"></script>
+    <script type="text/javascript" src="js/flexpaper.js?1459859590450"></script>
+    <script type="text/javascript" src="js/flexpaper_handlers.js?1459859590450"></script>
 </head>
 <body>
 <?php if($authenticated){ /* Uses this template if user has authenticated */ ?>
@@ -70,7 +70,7 @@
 
                     TrackingNumber          : '',
                     key                     : '$46f365e72ca4e2bc7cc',
-                    signature               : '77db6290132729b2f65ed9009d10e475',
+                    signature               : '34e1196491639fcd46477a6d14558aba',
                     localeChain             : 'en_US'
         }}
         );
